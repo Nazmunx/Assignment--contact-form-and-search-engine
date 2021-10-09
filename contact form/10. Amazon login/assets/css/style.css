@@ -1,0 +1,131 @@
+/* css reset code start */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'arial';
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/* css reset code end */
+
+.amazon {
+    text-align: center;
+}
+
+.amazon img {
+    display: block;
+    margin: 10px auto 18px;
+    cursor: pointer;
+}
+
+.amazon .amazon-form {
+    width: 351px;
+    height: 281px;
+    background-color: #fff;
+    display: block;
+    margin: auto;
+    border: 1px solid rgba(153, 153, 153, 0.342);
+    box-sizing: border-box;
+    padding: 25px;
+    text-align: left;
+}
+
+.amazon .amazon-form h1 {
+    font-size: 27px;
+    font-weight: 500;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.amazon .amazon-form p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 5px;
+}
+
+.amazon .amazon-form input {
+    width: 297px;
+    box-sizing: border-box;
+    padding: 6px 5px;
+    border-radius: 4px;
+    border: 1px solid rgba(153, 153, 153, 0.575);
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.amazon .amazon-form button {
+    width: 297px;
+    box-sizing: border-box;
+    padding: 6px 5px;
+    border-radius: 4px;
+    border: 1px solid #8d9096;
+    background-color: #f0c14b;
+    font-size: 14px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.amazon .amazon-form h2 {
+    font-size: 12px;
+    color: #222;
+    font-weight: 300;
+}
+
+.amazon .amazon-form h2 a {
+    color: #0066c0;
+}
+
+.amazon .amazon-form > a {
+    color: #0066c0;
+    display: inline-block;
+    font-size: 13px;
+    margin-top: 27px;
+    cursor: pointer;
+}
+
+.amazon .amazon-form > a i {
+    color: #777;
+}
+
+.amazon h3 {
+    font-size: 12px;
+    font-weight: 500;
+    color: #666;
+    padding: 5px;
+    background-color: #fff;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.amazon button:last-child {
+    width: 351px;
+    box-sizing: border-box;
+    padding: 6px 5px;
+    border-radius: 4px;
+    border: 1px solid rgba(153, 153, 153, 0.575);
+    font-size: 14px;
+    margin-top: 7px;
+    cursor: pointer;
+}

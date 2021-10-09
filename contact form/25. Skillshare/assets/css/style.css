@@ -1,0 +1,187 @@
+/* css reset code start */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'arial';
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/* css reset code end */
+
+body {
+    background-color: #f1f1f1;
+}
+
+.form {
+    width: 443px;
+    height: 510px;
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 30px;
+    border: none;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.322);
+    box-sizing: border-box;
+    display: block;
+    margin: 20px auto 0px;
+}
+
+.form h1 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #002333;
+    margin: 0px 0px 30px;
+    text-align: center;
+}
+
+.form button svg {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.form button {
+    text-align: left;
+}
+
+.form button:nth-child(2) {
+    width: 280px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #002333;
+    padding: 10px;
+    color: #002333;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.form button:nth-child(3) {
+    width: 280px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #002333;
+    padding: 10px;
+    color: #002333;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.form button:nth-child(4) {
+    width: 280px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #002333;
+    padding: 10px;
+    color: #002333;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.up {
+    text-align: center;
+}
+
+.up p {
+    font-size: 14px;
+    color: #002333;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.up p a {
+    display: inline-block;
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.form .input-1 input {
+    width: 280px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #002333;
+    padding: 10px;
+    color: #002333;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.form .input-2 input {
+    width: 280px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #002333;
+    padding: 10px;
+    color: #002333;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.form .input-2 a {
+    font-size: 14px;
+    color: #08c;
+    display: block;
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.form .stay {
+    display: block;
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.form .stay label {
+    font-size: 14px;
+    color: #333;
+}
+
+.form .stay input {
+    vertical-align: middle;
+}
+
+.form button {
+    width: 280px;
+    box-sizing: border-box;
+    background-color: rgb(0, 255, 132);
+    border: 1px solid rgb(0, 255, 132);
+    padding: 10px;
+    color: #002333;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-align: center;
+}

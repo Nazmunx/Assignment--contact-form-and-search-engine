@@ -1,0 +1,475 @@
+/* css property start  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input:focus, textarea:focus {
+    outline:none
+}
+
+.container {
+    width: 1010px;
+    margin: 0px auto;
+}
+/* css property end  */
+
+.header {
+    background-color: #fff;
+    padding: 14px 0px;
+}
+
+.header::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header .logo {
+    width: 65%;
+    float: left;
+    margin-top: 1px;
+}
+
+.header .search {
+    width: 35%;
+    float: left;
+    margin-top: 20px;
+}
+
+.header .search input {
+    border: 1px solid #dedede;
+    background-color: #f3f3f3;
+    font: 400 15px 'Lato',sans-serif;
+    color: #434343;
+    padding: 10px;
+    cursor: pointer;
+    width: 70%;
+    box-sizing: border-box;
+    float: left;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.header .search::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header .search button {
+    border: 1px solid #f38944;
+    background-color: #f38944;
+    color: #fff;
+    font: 700 15px 'Lato',sans-serif;
+    padding: 10px;
+    cursor: pointer;
+    width: 30%;
+    box-sizing: border-box;
+    float: left;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.menu {
+    background-color: #303030;
+}
+
+.menu::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.menu .main-menu {
+    width: 85%;
+    float: left;
+}
+
+.menu .main-menu ul li {
+    display: inline-block;
+}
+
+.menu .main-menu ul li a {
+    color: #fff;
+    font: 900 13px 'Lato',sans-serif;
+    text-transform: uppercase;
+    padding: 12px 17px;
+    display: inline-block;
+}
+
+.menu .main-menu ul li:hover a {
+    background-color: #fff;
+    color: #303030;
+}
+
+.menu .side-menu {
+    width: 15%;
+    float: left;
+}
+
+.menu .side-menu ul li {
+    display: inline-block;
+}
+
+.menu .side-menu ul {
+    text-align: right;
+}
+
+.menu .side-menu ul li a {
+    color: #fff;
+    font: 900 13px 'Lato',sans-serif;
+    text-transform: uppercase;
+    padding: 12px 15px;
+    display: inline-block;
+}
+
+.menu .side-menu ul li:hover a {
+    background-color: #fff;
+    color: #303030;
+}
+
+.banner {
+    height: 426px;
+    background-image: url(../media/img/banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.banner .banner-content h1 {
+    font: 900 43px 'Lato',sans-serif;
+    text-align: center;
+    color: #1c1c1c;
+    width: 68%;
+    margin: 50px auto 32px;
+}
+
+.banner .banner-content .search {
+    width: 820px;
+    margin: auto;
+    box-shadow: 6px 3px 18px rgb(132 166 201 / 64%);
+}
+
+.banner .banner-content .search::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.banner .banner-content .search input {
+    width: 80%;
+    padding: 25px;
+    box-sizing: border-box;
+    float: left;
+    border: 1px solid #88a1ba;
+    border-right: none;
+    font: 500 20px 'Lato',sans-serif;
+    border-radius: 5px 0px 0px 5px;
+    cursor: pointer;
+}
+
+.banner .banner-content .search button {
+    width: 20%;
+    padding: 25px;
+    background-color: #f38944;
+    color: #fff;
+    border: 1px solid #f38944;
+    border-left: none;
+    box-sizing: border-box;
+    float: left;
+    font: 500 20px 'Lato',sans-serif;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+.banner .banner-content .offer {
+    width: 820px;
+    margin: auto;
+    text-align: center;
+}
+
+.banner .banner-content .offer::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.banner .banner-content .offer a {
+   color: #ff6e00;
+   font: 700 15px 'Lato',sans-serif;
+   display: inline-block;
+   margin: 10px auto;
+}
+
+.banner .banner-content .offer a:first-child {
+    float: left;
+}
+
+.banner .banner-content .offer a:last-child {
+    float: right;
+}
+
+.banner .banner-content p {
+    color: #1c1c1c;
+    font: 700 15px 'Lato',sans-serif;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.service {
+    background-color: #fff;
+    padding: 60px 0px;
+    overflow: hidden;
+}
+
+.service h1 {
+    font: 900 35px 'Lato',sans-serif;
+    color: #303030;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.service p {
+    font: 700 17px 'Lato',sans-serif;
+    color: #303030;
+    text-align: center;
+}
+
+.service .price-table {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.service .price-table .price-table-item {
+    width: 25%;
+    padding: 30px;
+    border: 1px solid #dedede;
+    text-align: center;
+    background-color: #f7f7f7;
+    border-radius: 6px;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.service .price-table .price-table-item .featured-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #d7d7d7;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+.service .price-table .price-table-item .featured-image img {
+    transform: translate(0px, 35px);
+}
+
+.service .price-table .price-table-item:hover .featured-image {
+    background-color: #f5893a;
+    border: none;
+}
+
+.service .price-table .price-table-item:hover {
+    border: 1px solid #f5893a;
+}
+
+.service .price-table .price-table-item:hover .pricing {
+    color: #f5893a;
+}
+
+.service .price-table .price-table-item:hover a {
+    border: 1px solid #f5893a;
+    background-color: #f5893a;
+    color: #fff;
+}
+
+.service .price-table .price-table-item h3 {
+    font: 700 25px 'Lato',sans-serif;
+    color: #303030;
+}
+
+.service .price-table .price-table-item .pricing {
+    margin: 15px 0px;
+}
+
+.service .price-table .price-table-item .pricing > span {
+    font: 500 14px 'Lato',sans-serif;
+    transform: translate(-28px,4px);
+    display: block;
+}
+
+.service .price-table .price-table-item .pricing h4 {
+    font: 900 54px 'Lato',sans-serif;
+}
+
+.service .price-table .price-table-item .pricing h4 span:nth-child(1) {
+    font: 900 25px 'Lato',sans-serif;
+    vertical-align: top;
+}
+
+.service .price-table .price-table-item .pricing h4 span:nth-child(2) {
+    font: 900 16px 'Lato',sans-serif;
+    vertical-align: bottom;
+}
+
+.service .price-table .price-table-item .package-details ul {
+    margin-top: 25px;
+    font: 500 16px 'Lato',sans-serif;
+    color: #7f7f7f;
+}
+
+.service .price-table .price-table-item .package-details ul li {
+    margin: 17px 0px;
+}
+
+.service .price-table .price-table-item a {
+    display: inline-block;
+    color: #303030;
+    font: 700 15px 'Lato',sans-serif;
+    text-transform: uppercase;
+    padding: 11px 28px;
+    border: 1px solid #bcbcbc;
+    border-radius: 6px;
+    margin: 20px 0px 10px;
+}
+
+.footer {
+    background-color: #1b1b1b;
+    padding: 40px 0px 0px;
+}
+
+.footer .footer-bottom {
+    padding: 20px;
+    background-color: #111;
+}
+
+.footer .footer-top::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.footer .footer-top .whois-info {
+    width: 33%;
+    float: left;
+}
+
+.footer .footer-top .footer-list-item {
+    width: 21%;
+    float: left;
+}
+
+.footer .footer-top .whois-info img {
+    margin-bottom: 25px;
+}
+
+.footer .footer-top .whois-info p {
+    width: 80%;
+    color: #858585;
+    font-size: 15px;
+    margin-bottom: 23px;
+}
+
+.footer .footer-top .whois-info p > a {
+    color: #858585;
+}
+
+.footer .footer-top .whois-info p > a:hover {
+    color: #f5893a;
+}
+
+.footer .footer-top .whois-info .button {
+    display: block;
+    margin: 30px 0px 30px;
+} 
+
+.footer .footer-top .whois-info .button ul li {
+    display: inline-block;
+} 
+
+.footer .footer-top .whois-info .button ul li a {
+    display: inline-block;
+    color: #858585;
+} 
+
+.footer .footer-top .whois-info .button ul li:nth-child(1) a button {
+    padding: 7px 20px;
+    background-color: #1b1b1b;
+    margin-right: 5px;
+    color: #fff;
+    border: 1px solid #858585;
+}
+
+.footer .footer-top .whois-info .button ul li:nth-child(1) a button:hover {
+    background-color: #f5893a;
+    border: 1px solid #f5893a;
+}
+
+.footer .footer-top .whois-info .button ul li:nth-child(2) a button {
+    padding: 7px 15px;
+    margin-left: 5px;
+    color: #fff;
+    border: 1px solid #858585;
+    background-color: #1b1b1b;
+} 
+
+.footer .footer-top .whois-info .button ul li:nth-child(2) a button:hover {
+    background-color: #f5893a;
+    border: 1px solid #f5893a;
+}
+
+.footer .footer-top .whois-info i {
+    color: #fff;
+    vertical-align: middle;
+}
+
+.footer .footer-top .whois-info a {
+    color: #858585;
+    font-size: 15px;
+}
+
+.footer .footer-top .whois-info a:hover {
+    color: #f5893a;
+}
+
+.footer .footer-top .footer-list-item h3 {
+    color: #d8d8d8;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.footer .footer-top .footer-list-item {
+    margin-bottom: 40px;
+}
+
+.footer .footer-top .footer-list-item ul li {
+    display: inline-block;
+    margin-bottom: 13px;
+}
+
+.footer .footer-top .footer-list-item ul li a {
+    display: inline-block;
+    color: #858585;
+}
+
+.footer .footer-top .footer-list-item ul li a:hover {
+    color: #f5893a;
+}
+
+.footer .footer-bottom h4 {
+    text-align: center;
+    color: #858585;
+    font-weight: 500;
+    font-size: 14px;
+}

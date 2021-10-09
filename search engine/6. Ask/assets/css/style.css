@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/* css reset code start */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+.container {
+    width: 851px;
+    margin: auto;
+    position: absolute;
+    left: 250px;
+}
+
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/* css reset code end */
+
+.header .logo {
+    text-align: center;
+    margin-top: 2px;
+}
+
+.header .logo a img {
+    width: 110px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.header .search::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header .search {
+    transform: translate(0px, -10px);
+}
+
+.header .search input {
+    width: 800px;
+    height: 45px;
+    float: left;
+    border: 1px solid #ced4da;
+    border-right: none;
+    color: #495057;
+    font-size: 17px;
+    padding: 10px 16px;
+    box-sizing: border-box;
+    border-radius: 3px 0px 0px 3px;
+}
+
+.header .search button {
+    border-radius: 0px 3px 3px 0px;
+    width: 50px;
+    height: 45px;
+    float: left;
+    background-color: #408EC9;
+    border: 1px solid #408EC9;
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.header .search button i {
+    font-size: 16px;
+    color: #fff;
+}
+
+.header .menu ul {
+    text-align: center;
+}
+
+.header .menu ul li {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.header .menu ul li a {
+    display: inline-block;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 20px;
+    color: #151515;
+    text-transform: uppercase;
+}
+
+.header .menu ul li:nth-child(1) a {
+    margin-left: 0px;
+}
+
+.header .menu ul li a:hover {
+    color: #cf0000;
+}

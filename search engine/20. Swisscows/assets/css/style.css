@@ -1,0 +1,230 @@
+/* css reset code start */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'arial';
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+.container-fluid {
+    width: 97%;
+    margin: auto;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+/* css reset code end */
+
+.header {
+    background-color: #f7f7f7;
+}
+
+.header .auth {
+    padding: 8px 0px;
+    transform: translate(0px, -16px);
+}
+
+.header .auth ul {
+    text-align: right;
+}
+
+.header .auth ul li {
+    display: inline-block;
+}
+
+.header .auth ul li:first-child a {
+    color: #1c80dd;
+    font-size: 14px;
+}
+
+.header .auth ul li a {
+    display: inline-block;
+    font-size: 16px;
+    color: #444;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.header .auth ul li:nth-child(2) a .feature {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #eee;
+    transform: translate(0px, 21px);
+    text-align: center;
+}
+
+.header .auth ul li:nth-child(2) a .feature p {
+    font-size: 13px;
+    color: #666;
+    text-align: center;
+    padding: 10px 0px 0px;
+}
+
+.header .auth ul li:nth-child(3) a .feature {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.header .auth ul li:nth-child(3) a .feature i {
+    margin-top: 15px;
+    font-size: 15px;
+    color: #cf6767;
+}
+
+.header .auth ul li:nth-child(2) a img {
+    width: 25px;
+    transform: translate(0px, 5px);
+}
+
+.section {
+    background-color: #f7f7f7;
+}
+
+.section .logo {
+    text-align: center;
+}
+
+.section .logo img {
+    transform: translate(0px, -30px);
+}
+
+.section .logo p {
+    font-size: 15px;
+    transform: translate(0px, -45px);
+    color: #999;
+}
+
+.section .search {
+    position: relative;
+    transform: translate(0px, 0px);
+    text-align: center;
+}
+
+.section .search input {
+    width: 65%;
+    padding: 20px 30px;
+    border-radius: 200px;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 20%);
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.section .search i {
+    font-size: 20px;
+    color: #cf6767;
+    position: absolute;
+    top: 20px;
+    right: 170px;
+    cursor: pointer;
+}
+
+.section .info-item {
+    width: 70%;
+    margin: auto;
+}
+
+.section .info-item ul::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.section .info-item ul li {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.section .info-item ul li:last-child {
+    float: right;
+}
+
+.section .info-item ul li a {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.section .info-item ul li p {
+    display: inline-block;
+    color: #777;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.section .info-item ul li:first-child a {
+    color: #1c80dd;
+    cursor: default;
+}
+
+.section .info-item ul li:first-child button {
+    font-size: 14px;
+    background-color: #f7f7f7;
+    border: none;
+    margin-left: 20px;
+    cursor: pointer;
+    color: #1c80dd;
+}
+
+.section .info-item ul li:last-child a {
+    color: #cf6767;
+    cursor: pointer;
+}
+
+.section .info-item ul li:last-child a img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.section .info-item ul li a .feature {
+    width: 35px;
+    height: 15px;
+    border-radius: 30px;
+    background-color: #79D4AA;
+    border: 2px solid #79D4AA;
+    transform: translate(0px, 3px);
+}
+
+.section .info-item ul li a .feature button {
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: default;
+}
+
+.section .banner {
+    width: 993px;
+    height: 534px;
+    background-image: url(../media/img/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 40px;
+    cursor: pointer;
+}

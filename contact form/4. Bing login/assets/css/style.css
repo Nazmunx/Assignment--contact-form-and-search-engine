@@ -1,0 +1,123 @@
+/* css reset code start */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'arial';
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+.bing-form::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/* css reset code end */
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../media/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: radial-gradient(rgba(46, 151, 173, .9), rgb(6, 120, 146)); */
+}
+
+.bing-form {
+    width: 442px;
+    height: 341px;
+    background-color: #fff;
+    margin: 110px auto 0px;
+    text-align:left;
+    padding: 45px 44px 50px;
+    box-sizing: border-box;
+    box-shadow: 0 1px 6px rgb(0 0 0 / 20%);
+}
+
+.bing-form h1 {
+    font-size: 24px;
+    margin: 10px 0px 10px;
+    color: #1b1b1b;
+}
+
+.bing-form input {
+    width: 350px;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #1b1b1b;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.bing-form .no p {
+    display: inline-block;
+    color: #1b1b1b;
+    font-size: 13px;
+}
+
+.bing-form .no a {
+    display: inline-block;
+    color: #0067b8;
+    font-size: 13px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.bing-form .help a {
+    display: inline-block;
+    color: #0067b8;
+    font-size: 13px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.bing-form .help a i {
+    color: #1b1b1b;
+}
+
+.bing-form button {
+    color: #fff;
+    background-color: #0067b8;
+    border: none;
+    float: right;
+    padding: 8px 40px;
+    font-size: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.option {
+    width: 442px;
+    height: 50px;
+    margin: 20px auto 0px;
+    box-sizing: border-box;
+    box-shadow: 0 1px 6px rgb(0 0 0 / 20%);
+}
+
+.option button {
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #fff;
+    font-size: 16px;
+    color: #1b1b1b;
+    cursor: pointer;
+}
+
+.option button i {
+    margin-left: 40px;
+    margin-right: 15px;
+    font-size: 20px;
+}

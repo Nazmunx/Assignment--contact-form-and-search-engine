@@ -1,0 +1,217 @@
+/* css reset code start */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'arial';
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.banner .form::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.banner .form .button-1 button::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.banner .form .button-2 button::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/* css reset code end */
+.banner {
+    padding: 90px 0px;
+    display: block;
+    margin: auto;
+}
+
+.banner img {
+    vertical-align: middle;
+}
+
+body {
+    background-color: #2a2a2a;
+}
+
+.banner .form {
+    width: 351px;
+    height: 420px;
+    background-color: #fff;
+    display: block;
+    margin: auto;
+    padding: 30px;
+}
+
+.banner .form h1 {
+    font-size: 21px;
+    font-weight: 500;
+    display: inline-block;
+    transform: translate(0px, 25px);
+}
+
+.banner .form p {
+    float: right;
+    font-size: 14px;
+}
+
+.banner .form p a {
+    display: inline-block;
+    color: #0061ff;
+    cursor: pointer;
+}
+
+.banner .form .button-1 button {
+    width: 100%;
+    color: #fff;
+    background-color: #0061ff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.banner .form .button-1 button i {
+    float: left;
+}
+
+.banner .form .button-2 button {
+    width: 100%;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    box-sizing: border-box;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.banner .form .button-2 button i {
+    float: left;
+}
+
+.banner .form h2 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #000;
+}
+
+/* .banner .form h2 .line {
+    position: relative;
+    text-align: center;
+    color: #999;
+}
+
+.banner .form h2 .line::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 140px;
+    height: 1px;
+    background-color: #999;
+    top: 50%;
+    left: 0;
+}
+
+.banner .form h2 .line::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 140px;
+    height: 1px;
+    background-color: #999;
+    top: 50%;
+    right: 0;
+} */
+
+.banner .form .input-1 input {
+    width: 100%;
+    color: #999;
+    background-color: #fff;
+    border: 1px solid rgba(153, 153, 153, 0.561);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 300;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.banner .form .input-2 input {
+    width: 100%;
+    color: #999;
+    background-color: #fff;
+    border: 1px solid rgba(153, 153, 153, 0.561);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 300;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.banner .form > input {
+    padding: 5px;
+    border-radius: 0px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.banner .form label {
+    font-size: 14px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.banner .form > button {
+    float: right;
+    background-color: #0061ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.banner .form a {
+    display: block;
+    color: #0061ff;
+    font-size: 14px;
+    margin-top: 30px;
+    cursor: pointer;
+}

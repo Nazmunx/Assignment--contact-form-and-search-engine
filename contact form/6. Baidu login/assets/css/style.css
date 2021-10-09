@@ -1,0 +1,212 @@
+/* css reset code start */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'arial';
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+.baidu::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/* css reset code end */
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../media/img/reg_bg_min.jpg);
+    background-position: top center;
+    background-size: cover;
+}
+
+.baidu .logo {
+    width: 45%;
+    float: left;
+    box-sizing: border-box;
+    padding: 60px;
+    color: #fff;
+}
+
+.baidu .input {
+    width: 55%;
+    float: left;
+}
+
+.baidu .logo img {
+    width: 130px;
+}
+
+.baidu .logo h1 {
+    font-size: 54px;
+    text-align: center;
+    margin-right: 60px;
+    margin-top: 210px;
+}
+
+.baidu .logo h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-left: 70px;
+    font-weight: 300;
+}
+
+.baidu .bottom {
+    display: block;
+    margin-top: 150px;
+}
+
+.baidu .bottom a img {
+    display: inline-block;
+    width: 15px;
+    vertical-align: middle;
+}
+
+.baidu .bottom a {
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.baidu .bottom p {
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 30px;
+    color: #fafafa;
+}
+
+.baidu .input .input-item {
+    display: block;
+    margin: 50px auto;
+    width: 481px;
+    height: 554px;
+    background-color: rgba(255, 255, 255, .9);
+    border-radius: 10px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.baidu .input .input-item h1 {
+    font-size: 36px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.baidu .input .input-item p {
+    display: inline-block;
+    color: #9B9B9B;
+    font-size: 14px;
+}
+
+.baidu .input .input-item a {
+    display: inline-block;
+    color: #2e58ff;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.baidu .input .input-item .input-one {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.baidu .input .input-item .input-one p {
+    display: inline-block;
+    font-size: 14px;
+    color: #9B9B9B;
+}
+
+.baidu .input .input-item .input-one input {
+    display: inline-block;
+    width: 342px;
+    box-sizing: border-box;
+    padding: 12px;
+    border: 1px solid #E0E0E0;
+    background-color: #fff;
+    border-radius: 5px;
+    transform: translate(5px, 0px);
+}
+
+.baidu .input .input-item .input-one i {
+    transform: translate(358px, -26px);
+}
+
+.baidu .input .input-item .input-four {
+    transform: translate(0px, -20px);
+}
+
+.baidu .input .input-item .input-four input {
+    display: inline-block;
+    width: 220px;
+    box-sizing: border-box;
+    padding: 12px;
+    border: 1px solid #E0E0E0;
+    background-color: #fff;
+    margin-right: 8px;
+    border-radius: 5px;
+    transform: translate(5px, 0px);
+}
+
+.baidu .input .input-item .input-four p {
+    display: inline-block;
+    font-size: 14px;
+    color: #9B9B9B;
+}
+
+.baidu .input .input-item .input-four button {
+    display: inline-block;
+    width: 110px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #E0E0E0;
+    background-color: #fff;
+    cursor: pointer;
+    color: #000;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.baidu .input .input-item button {
+    width: 399px;
+    display: block;
+    border-radius: 25px;
+    border: none;
+    background-color: #BDCEFC;
+    padding: 15px 10px;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.baidu .input .input-item input {
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 15px;
+    transform: translate(20px, 0px);
+}
+
+.baidu .input .input-item label {
+    display: inline-block;
+    font-size: 12px;
+    color: #9B9B9B;
+    transform: translate(20px, -2px);
+}
+
+.baidu .input .input-item label a {
+    color: #2e58ff;
+}

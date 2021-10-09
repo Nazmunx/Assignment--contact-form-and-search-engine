@@ -1,0 +1,146 @@
+/* css reset code start */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'arial';
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+.container {
+    width: 96%;
+    margin: auto;
+}
+
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/* css reset code end */
+
+body {
+    background-color: #FBFBFD;
+}
+
+.header {
+    border-top: 2px solid #6573ff;
+    text-align: right;
+    padding: 15px 0px;
+}
+
+.header button {
+    color: #374677;
+    border: none;
+    margin-left: 5px;
+    padding: 10px 15px 10px 10px;
+    background-color: #FBFBFD;
+    font-size: 16px;
+}
+
+.header button:last-child {
+    padding: 8px 10px;
+    font-size: 18px;
+}
+
+.header button:first-child > i {
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.header button:hover {
+    background-color: #f1f3ff;
+    color: #6573ff;
+}
+
+.section {
+    text-align: center;
+    padding: 65px 0px 0px;
+}
+
+.section .logo img {
+    width: 300px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.section .search {
+    position: relative;
+}
+
+.section .search input {
+    width: 421px;
+    height: 48px;
+    border-radius: 200px;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 10px 20px;
+    color: #202945;
+    border: 1px solid #cfd8e9;
+    margin-bottom: 30px;
+}
+
+.section .search i {
+    transform: translate(-42px, 0px);
+    color: #7f869f;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.section h1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #202945;
+    margin-bottom: 25px;
+    word-spacing: 2px;
+}
+
+.section .check {
+    text-align: left;
+    margin-left: 490px;
+}
+
+.section .check ul li a {
+    display: inline-block;
+    font-size: 16px;
+    color: #202945;
+    margin-bottom: 15px;
+    word-spacing: 2px;
+}
+
+.section .check ul li a img {
+    width: 12px;
+    margin-right: 8px;
+}
+
+.section button {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    background-color: #6573ff;
+    border: none;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.section button:hover {
+    background-color: #a6afff;
+}
+
+.section p {
+    font-size: 13px;
+    color: #7f869f;
+}

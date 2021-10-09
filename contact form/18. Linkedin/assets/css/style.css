@@ -1,0 +1,129 @@
+/* css reset code start */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'arial';
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+.container {
+    width: 30%;
+    margin: auto;
+}
+/* css reset code end */
+
+.linkedin {
+    padding: 50px 0px 0px;
+}
+
+.linkedin svg {
+    text-align: left;
+    cursor: pointer;
+}
+
+.linkedin .form {
+    width: 420px;
+    height: 405px;
+    background-color: #fff;
+    display: block;
+    margin: 30px auto 0px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.linkedin .form h1 {
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.linkedin .form p:nth-child(2) {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.linkedin .form .input-1 input {
+    width: 352px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 20px 10px;
+    margin-top: 30px;
+}
+
+.linkedin .form .input-2 input {
+    width: 352px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 20px 10px;
+    margin-top: 25px;
+}
+
+.linkedin .form .input-2 {
+    position: relative;
+}
+
+.linkedin .form .input-2 p {
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    color: #0073b1;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.linkedin .form > a {
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    color: #0073b1;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.linkedin .form > button {
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    color: #fff;
+    background-color: #0073b1;
+    margin-top: 20px;
+    border: 1px solid #0073b1;
+    width: 352px;
+    border-radius: 30px;
+    padding: 16px;
+    cursor: pointer;
+}
+
+.linkedin p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.linkedin p a {
+    font-size: 15px;
+    font-weight: 600;
+    color: #0073b1;
+    cursor: pointer;
+}

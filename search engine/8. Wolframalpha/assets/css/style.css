@@ -1,0 +1,182 @@
+/* css reset code start */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'arial', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+.container {
+    width: 98%;
+    margin: auto;
+}
+
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/* css reset code end */
+
+.header {
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.header .menu {
+    float: right;
+}
+
+.header .menu ul {
+    text-align-last: left;
+}
+
+.header .menu ul li {
+    display: inline-block;
+}
+
+.header .menu ul li a {
+    display: inline-block;
+    font-size: 14px;
+    color: #535353;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.header .menu ul li a:hover {
+    color: #ec561a;
+}
+
+.header .menu ul li a i {
+    transform: translate(0px, -1px);
+    font-size: 10px;
+}
+
+.header .menu ul li a button {
+    padding: 5px 10px;
+    color: #f96932;
+    border: 1px solid #ec561a;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.header .menu ul li a button:hover {
+    color: #fff;
+    background-color: #f96932;
+}
+
+.section .search::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.section .logo {
+    text-align: center;
+    margin: 65px 0px 25px;
+}
+
+.section .logo img {
+    width: 490px;
+}
+
+.section .search {
+    width: 55%;
+    margin: 0px auto 0px;
+    box-shadow: 0 0 0 3px #ffc230;
+    border-radius: 5px;
+}
+
+.section .search input {
+    font-size: 16px;
+    font-style: italic;
+    float: left;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid #f96932;
+    box-sizing: border-box;
+    border-right: none;
+}
+
+.section .search button {
+    float: left;
+    width: 10%;
+    padding: 5px 10px;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #f96932;
+    box-sizing: border-box;
+    border-left: none;
+    background-color: #fff;
+}
+
+.section .search button svg {
+    margin-left: 30px;
+    width: 25px;
+    fill: #ec561a;
+    transform: translate(0px, 1px);
+}
+
+.section .search button svg:hover  {
+    fill: #DD0E00;
+}
+
+.section .menu-item {
+    width: 55%;
+    margin: auto;
+}
+
+.section .menu-item::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.section .menu-item .left-menu{
+    width: 50%;
+    float: left;
+}
+
+.section .menu-item .right-menu{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.section .menu-item .left-menu button, .section .menu-item .right-menu button {
+    color: #ec561a;
+    vertical-align: middle;
+    background-color: #fff;
+    border-style: none;
+    margin: 20px 10px;
+}
+
+.section .menu-item .left-menu button svg, .section .menu-item .right-menu button svg {
+    color: #ec561a;
+    fill: #ec561a;
+    width: 20px;
+    vertical-align: middle;
+}
+
+.section .menu-item .left-menu button svg, .menu-item .right-menu button svg {
+    transform: translate(0px, -2px);
+}
+
+.section .menu-item .left-menu button:hover, .section .menu-item .right-menu button:hover {
+    color: #DD0E00;
+}
+
+.section .menu-item .left-menu button:hover svg, .section .menu-item .right-menu button:hover svg {
+    fill: #DD0E00;
+    color: #DD0E00;
+}

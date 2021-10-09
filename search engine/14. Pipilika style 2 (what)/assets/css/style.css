@@ -1,0 +1,262 @@
+/* css reset code start */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'arial';
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+.container {
+    width: 97%;
+    margin: auto;
+}
+
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/* css reset code end */
+
+.header {
+    position: relative;
+    background-color: #f3f4f5;
+    padding: 1px 0px 0px;
+}
+
+.header .logo {
+    width: 11%;
+    float: left;
+}
+
+.header .search {
+    width: 51%;
+    float: left;
+    margin-top: 22px;
+}
+
+.header .search::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.header .menu {
+    width: 38%;
+    float: left;
+}
+
+.header .logo img {
+    width: 120px;
+    margin-top: 19px;
+    cursor: pointer;
+}
+
+.header .search input {
+    width: 92%;
+    height: 45px;
+    float: left;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    border-radius: 6px 0px 0px 6px;
+    border: 2px solid rgba(190, 189, 189, 0.3);
+    background-color: #fff;
+    color: #434A54;
+    font-size: 16px;
+    border-right: none;
+}
+
+.header .search button {
+    width: 8%;
+    height: 45px;
+    float: left;
+    box-sizing: border-box;
+    border-radius: 0px 6px 6px 0px;
+    border: 2px solid #8CC152;
+    background-color: #8CC152;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    border-left: none;
+}
+
+.header .search button:hover {
+    background-color: #A0D468;
+    border: 2px solid #A0D468;
+}
+
+.header .en {
+    width: 55px;
+    height: 20px;
+    border-radius: 110px;
+    background-color: #20895e;
+    border: 1px solid #196c4b;
+    cursor: pointer;
+    position: absolute;
+    top: 34px;
+    right: 0px;
+    left: 126px;
+    margin: auto;
+}
+
+.header .en button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: none;
+    transform: translate(35px, -17px);
+    cursor: pointer;
+}
+
+.header .en p {
+    font-size: 12px;
+    color: #fff;
+    margin-left: 7px;
+    margin-top: 3px;
+}
+
+.header .menu {
+    text-align: right;
+    margin-top: 24px;
+}
+
+.header .menu button {
+    padding: 9px 12px 12px;
+    background-color: #7ab03f;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.header .menu button:hover {
+    background-color: #A0D468;
+}
+
+.header .menu button i {
+    font-size: 23px;
+    color: #fff;
+}
+
+.nav {
+    background-color: #f3f4f5;
+}
+
+.nav ul {
+    text-align: left;
+    margin-left: 164px;
+}
+
+.nav ul li {
+    display: inline-block;
+}
+
+.nav ul li a {
+    display: inline-block;
+    font-size: 13px;
+    padding: 7px 15px;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 1px;
+}
+
+.nav ul li a:hover {
+    border-bottom: 2px solid #196c4b;
+}
+
+.nav ul li:nth-child(1) a {
+    border-bottom: 2px solid #196c4b;
+}
+
+.nav ul li a:focus {
+    border-bottom: 2px solid #196c4b;
+}
+
+.banner {
+    width: 100%;
+    height: 250px;
+    background-image: url(../media/img/page-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+}
+
+.banner h1 {
+    margin-top: 150px;
+    color: #fff;
+    font-size: 43px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.banner h3 {
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+    margin-top: 2px;
+}
+
+.text {
+    text-align: left;
+    padding: 30px 0px 152px;
+    background-color: #fff;
+}
+
+.text p {
+    width: 53%;
+    margin: auto;
+    color: #313131;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.footer::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.footer .menu {
+    width: 30%;
+    float: left;
+}
+
+.footer .info {
+    width: 70%;
+    text-align: center;
+    float: left;
+}
+
+.footer .menu ul li {
+    display: inline-block;
+}
+
+.footer .menu ul li a {
+    display: inline-block;
+    font-size: 13px;
+    color: #313131;
+    margin-left: 20px;
+}
+
+.footer .menu ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer .menu ul li:nth-child(1) a {
+    margin-left: 20px;
+}
+
+.footer .info p {
+    font-size: 12px;
+    color: #999;
+}

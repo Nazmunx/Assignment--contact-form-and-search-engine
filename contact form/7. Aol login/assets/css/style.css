@@ -1,0 +1,231 @@
+/* css reset code start */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'arial';
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+.container {
+    width: 92%;
+    margin: auto;
+}
+
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/* css reset code end */
+
+.header {
+    padding: 20px 0px 15px;
+    background-color: #fff;
+}
+
+.header .logo {
+    display: inline-block;
+}
+
+.header .logo img {
+    width: 100px;
+    cursor: pointer;
+}
+
+.header .help {
+    float: right;
+}
+
+.header .help a {
+    display: inline-block;
+    color: #39f;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.body {
+    width: 100%;
+    height: 1024px;
+    background-image: url(../media/img/bg.jpg);
+    background-position: center bottom;
+}
+
+section {
+    margin-top: 20px;
+}
+
+.login-form {
+    width: 365px;
+    background-color: #fff;
+    float: right;
+    text-align: center;
+    padding: 30px 30px 15px 30px;
+    box-sizing: border-box;
+    margin-right: 20px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 30%);
+    border: 1px solid #f1f1f1;
+}
+
+.login-form img {
+    width: 100px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.login-form h1 {
+    color: #333;
+    font-size: 21px;
+    margin-bottom: 90px;
+}
+
+.login-form input {
+    display: block;
+    width: 305px;
+    border: none;
+    font-size: 15px;
+    border-bottom: 1px solid #999;
+    box-sizing: border-box;
+    padding: 10px 0px;
+    color: #999;
+}
+
+.login-form button {
+    display: block;
+    width: 305px;
+    background-color: #39f;
+    border: 1px solid #39f;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.login-form .stay {
+    display: block;
+}
+
+.login-form .stay::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.login-form .stay input {
+    display: inline-block;
+    width: 15px;
+    border-radius: 0px;
+    border:  1px solid #999;
+    transform: translate(-40px, 0px);
+    cursor: pointer;
+}
+
+.login-form .stay label {
+    display: inline-block;
+    font-size: 14px;
+    color: #39f;
+    transform: translate(-40px, 0px);
+    cursor: pointer;
+}
+
+.login-form .stay a {
+    float: right;
+    font-size: 14px;
+    color: #39f;
+    cursor: pointer;
+}
+
+.login-form .button button {
+    display: block;
+    width: 305px;
+    background-color: #fff;
+    border: 1px solid #39f;
+    font-size: 16px;
+    color: #39f;
+    font-weight: 500;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.login-form p {
+    font-size: 16px;
+    color: #333;
+}
+
+.login-form .two-button {
+    width: 305px;
+}
+.login-form .two-button::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.login-form .two-button button:first-child {
+    float: left;
+    width: 147px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #999;
+    cursor: pointer;
+}
+
+.login-form .two-button button:last-child {
+    float: right;
+    width: 147px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #999;
+    cursor: pointer;
+}
+
+.login-form .two-button button:first-child img {
+    width: 20px;
+    transform: translate(0px, -1px);
+}
+
+.login-form .two-button button:last-child img {
+    width: 90px;
+    transform: translate(0px, -4px);
+}
+.footer {
+    width: 100%;
+    background-color: #fff;
+    padding: 0px 0px 4px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+}
+
+.footer a {
+    display: inline-block;
+    color: #188fff;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.footer p {
+    display: inline-block;
+    color: #26282a;
+    font-size: 10px;
+}

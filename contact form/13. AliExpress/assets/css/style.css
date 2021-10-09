@@ -1,0 +1,165 @@
+/* css reset code start */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'arial';
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/* css reset code end */
+
+body {
+    background-color: #111;
+}
+
+.form {
+    width: 422px;
+    height: 490px;
+    background-color: #fff;
+    display: block;
+    margin: 85px auto 0px;
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 7px;
+}
+
+.form img {
+    display: block;
+    margin: auto;
+    width: 125px;
+}
+
+.form .text {
+    text-align: center;
+}
+
+.form .text button:first-child {
+    width: 100px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #333;
+    display: inline-block;
+    margin: 15px 25px 25px;
+    border: none;
+    background-color: #fff;
+}
+
+.form .text button:last-child {
+    width: 100px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ff4747;
+    display: inline-block;
+    padding: 5px;
+    margin: 15px 25px 25px;
+    border: none;
+    background-color: #fff;
+    border-bottom: 2px solid #ff4747;
+}
+
+.form form input:first-child {
+    width: 360px;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #fff;
+    color: #999;
+    border: 1px solid rgba(153, 153, 153, 0.301);
+    margin-bottom: 18px;
+}
+
+.form form input:nth-child(2) {
+    width: 360px;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #fff;
+    color: #999;
+    border: 1px solid rgba(153, 153, 153, 0.301);
+}
+
+.form form button:last-child{
+    width: 360px;
+    box-sizing: border-box;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #ff4747;
+    color: #fff;
+    border: 1px solid rgba(153, 153, 153, 0.301);
+    margin-top: 30px;
+}
+
+.form a {
+    display: inline-block;
+    color: #2e9cc3;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.form p {
+    display: block;
+    color: #a0a5a8;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.form ul {
+    text-align: center;
+}
+
+.form ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.form ul li a img {
+    display: inline-block;
+    width: 45px;
+}
+
+.form ul li:first-child a img {
+    display: inline-block;
+    width: 50px;
+}
+
+.form button {
+    display: block;
+    color: #2e9cc3;
+    font-size: 14px;
+    margin-top: 5px;
+    margin: auto;
+    background-color: #fff;
+    border: none;
+}
+
+.form button i {
+    font-size: 12px;
+}

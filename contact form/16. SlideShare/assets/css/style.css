@@ -1,0 +1,131 @@
+/* css reset code start */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'arial';
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+.container {
+    width: 82%;
+    margin: auto;
+}
+
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/* css reset code end */
+
+.header {
+    padding: 10px 0px;
+    background-color: #F2F6FC;
+}
+
+.header img {
+    width: 115px;
+    cursor: pointer;
+}
+
+.form {
+    width: 343px;
+    height: 285px;
+    background-color: #fff;
+    padding: 30px;
+    border: none;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.322);
+    box-sizing: border-box;
+    display: block;
+    margin: 50px auto 0px;
+}
+
+.form h1 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+    margin: 0px 0px 30px;
+    text-align: center;
+}
+
+.form button:nth-child(2) {
+    width: 280px;
+    box-sizing: border-box;
+    background-color: #007BB6;
+    border: 1px solid #006292;
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+    text-align: left;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.form button:nth-child(3) {
+    width: 280px;
+    box-sizing: border-box;
+    background-color: #3D5E99;
+    border: 1px solid #314b7a;
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+    text-align: left;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.form button:nth-child(4) {
+    width: 280px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #027eb0;
+    padding: 10px;
+    color: #027eb0;
+    font-size: 14px;
+    text-align: left;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.up {
+    text-align: center;
+}
+
+.up p {
+    font-size: 14px;
+    color: #333;
+    margin-top: 30px;
+}
+
+.up p a {
+    display: inline-block;
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.terms {
+    text-align: center;
+}
+
+.terms a {
+    display: inline-block;
+    color: #777;
+    font-size: 12px;
+    margin: 90px 20px;
+    cursor: pointer;
+}

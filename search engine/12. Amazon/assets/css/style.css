@@ -1,0 +1,293 @@
+/* css reset code start */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'arial',sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+button:focus, input:focus {
+    outline: none;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/* css reset code end */
+
+.header {
+    background-color: #131921;
+    padding: 10px 0px 8px;
+}
+
+.header .left-menu {
+    width: 19%;
+    float: left;
+}
+
+.header .left-menu ul {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.header .left-menu ul li {
+    display: inline-block;
+    padding: 7px 8px;
+    border: 1px solid #131921;
+}
+
+.header .left-menu ul li:hover {
+    border: 1px solid #fff;
+}
+
+.header .left-menu ul li:nth-child(2) a{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.header .left-menu ul li a img {
+    width: 100px;
+    vertical-align: bottom;
+}  
+
+.header .left-menu ul li:nth-child(2) a span {
+    display: block;
+    font-size: 12px;
+    color: #ccc;
+    margin-right: 12px;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 14px;
+}
+
+.header .search {
+    width: 53%;
+    float: left;
+}
+
+.header .right-menu {
+    width: 28%;
+    float: left;
+}
+
+.header .search::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.header .search .left-button {
+    float: left;
+    width: 8%;
+}
+
+.header .search .input {
+    float: left;
+    width: 85%;
+}
+
+.header .search .right-button {
+    float: left;
+    width: 7%;
+}
+
+.header .search .left-button button {
+    width: 100%;
+    height: 45px;
+    color: #0F1111;
+    background-color: #f3f3f3;
+    font-size: 14px;
+    padding: 7px 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.header .search .left-button button:hover {
+    color: #0F1111;
+    background-color: #f3f3f3d5;
+}
+
+.header .search .input input {
+    width: 100%;
+    height: 45px;
+    font-size: 17px;
+    background-color: #fff;
+    padding: 7px 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 0px;
+}
+
+.header .search .right-button button {
+    width: 100%;
+    height: 45px;
+    font-size: 22px;
+    color: #0F1111;
+    background-color: #F3A847;
+    padding: 7px 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.header .search .right-button button:hover {
+    background-color: #fc9b30;
+}
+
+.header .right-menu ul {
+    text-align: center;
+}
+
+.header .right-menu ul li:nth-child(1) {
+    padding: 17px 8px 8px 8px;
+}
+
+.header .right-menu ul li {
+    padding: 7px 8px;
+    display: inline-block;
+    border: 1px solid #131921;
+}
+
+.header .right-menu ul li:hover {
+    border: 1px solid #fff;
+}
+
+.header .right-menu ul li a {
+    display: inline-block;
+    font-size: 12px;
+    vertical-align: bottom;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.header .right-menu ul li:nth-child(1) a img {
+    width: 20px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.header .right-menu ul li:nth-child(1) a i {
+    vertical-align: bottom;
+    color: #ccc;
+}
+
+.header .right-menu ul li:nth-child(2) a, .header .right-menu ul li:nth-child(3) a {
+    text-align: left;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.header .right-menu ul li:nth-child(2) a i {
+    vertical-align: bottom;
+    color: #ccc;
+    font-size: 12px;
+}
+
+.header .right-menu ul li:nth-child(2) a span, .header .right-menu ul li:nth-child(3) a span {
+    display: block;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.header .right-menu ul li:nth-child(4) a i {
+    font-size: 30px;
+}
+
+.nav {
+    background-color: #232F3E;
+}
+
+.nav .menu {
+    width: 70%;
+    float: left;
+}
+
+.nav .covid {
+    width: 30%;
+    float: left;
+    text-align: right;
+}
+
+.nav .menu ul {
+    text-align-last: left;
+}
+
+.nav .menu ul li {
+    display: inline-block;
+    padding: 10px 5px;
+    border: 1px solid #232F3E;
+}
+
+.nav .menu ul li:hover {
+    border: 1px solid #fff;
+}
+
+.nav .menu ul li a {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.nav .menu ul li:nth-child(1) a {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.nav .menu ul li:nth-child(1) {
+    margin-left: 10px;
+    padding: 34px 5px 5px 0px;
+}
+
+.nav .menu ul li {
+    margin: 8px 0px;
+    padding: 4px 5px;
+}
+
+.nav .menu ul li:nth-child(1) {
+    padding: 4px 5px 4px 0px;
+}
+
+.nav .menu ul li:nth-child(1) a {
+    margin-left: 10px;
+}
+
+.nav .covid a {
+    border: 1px solid #232F3E;
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    padding: 4px 5px;
+    margin: 8px 17px 0px 8px;
+    margin-right: 17px;
+}
+
+.nav .covid a:hover {
+    border: 1px solid #fff;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../media/img/Fuji_TallHero_Gamers_en_US_1x._CB667161802_.jpg);
+    background-position: top center;
+}

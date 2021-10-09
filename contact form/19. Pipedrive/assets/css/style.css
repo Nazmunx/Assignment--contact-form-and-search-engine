@@ -1,0 +1,181 @@
+/* css reset code start */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'arial';
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/* css reset code end */
+
+body {
+    background-color: #f7f7f7;
+}
+
+.header {
+    padding: 30px 0px;
+}
+
+.header a {
+    float: right;
+    font-size: 14px;
+    margin-right: 20px;
+    margin-top: 10px;
+    color: #000;
+    cursor: pointer;
+}
+
+.header button {
+    float: right;
+    background-color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    border: 3px solid #000;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.form {
+    width: 506px;
+    height: 622px;
+    background-color: #fff;
+    margin: 0px auto 0px;
+    box-sizing: border-box;
+    padding: 60px;
+    overflow: hidden;
+}
+
+.form h1 {
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.form .input-1 input {
+    width: 381px;
+    font-size: 18px;
+    text-align: left;
+    border: none;
+    border-bottom: 2px solid rgba(153, 153, 153, 0.623);
+    box-sizing: border-box;
+    padding: 10px 30px;
+    margin-bottom: 40px;
+}
+
+.form .input-1 {
+    position: relative;
+}
+
+.form .input-1 img {
+    position: absolute;
+    top: 8px;
+    left: 0px;
+}
+
+.form .input-2 input {
+    width: 381px;
+    font-size: 18px;
+    text-align: left;
+    border: none;
+    border-bottom: 2px solid rgba(153, 153, 153, 0.623);
+    box-sizing: border-box;
+    padding: 10px 30px;
+    margin-bottom: 40px;
+}
+
+.form .input-2 {
+    position: relative;
+}
+
+.form .input-2 img {
+    position: absolute;
+    top: 8px;
+    left: 0px;
+}
+
+.form .input-2 a {
+    position: absolute;
+    top: 14px;
+    right: 0px;
+    color: #999;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.form button {
+    width: 381px;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: left;
+    border: none;
+    color: #fff;
+    background-color: #08A742;
+    border-bottom: 2px solid rgba(153, 153, 153, 0.623);
+    box-sizing: border-box;
+    padding: 10px 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.form label {
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.form p {
+    text-align: center;
+    margin-top: 40px;
+    color: #999;
+}
+
+.form ul {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.form ul li {
+    display: inline-block;
+}
+
+.form ul li a {
+    padding: 10px 24px;
+    color: #000;
+    background-color: rgba(153, 153, 153, 0.164);
+    cursor: pointer;
+}
+
+.form ul li a img {
+    vertical-align: middle;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #999;
+    margin-bottom: 100px;
+    cursor: pointer;
+}

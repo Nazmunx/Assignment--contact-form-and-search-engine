@@ -1,0 +1,124 @@
+/* css reset code start */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'arial';
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/* css reset code end */
+
+body {
+    background-color: #f1f1f1;
+}
+
+.form {
+    width: 611px;
+    height: 514px;
+    background-color: #fff;
+    margin: 50px auto 0px;
+    padding: 30PX;
+    text-align: center;
+}
+
+.form h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form p {
+    text-align: center;
+    color: #999;
+}
+
+.form p a {
+    text-align: center;
+    color: rgb(240, 110, 29);
+    cursor: pointer;
+}
+
+.form input {
+    width: 560px;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid rgba(153, 153, 153, 0.411);
+    border-radius: 5px;
+    margin-top: 20px;
+    display: block;
+}
+
+.form a {
+    color: rgb(240, 110, 29);
+    display: inline-block;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.form > button {
+    background-color: rgb(27, 99, 194);
+    color: #fff;
+    width: 560px;
+    padding: 15px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.form ul {
+    text-align: center;
+}
+
+.form ul li {
+    display: inline-block;
+    margin: 20px 4px 0px;
+}
+
+.form ul li button {
+    background-color: #999;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.form ul li button svg {
+    font-size:30px;
+}
+
+.form button:last-child {
+    background-color: rgb(226, 226, 226);
+    color: #000;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.form button:last-child svg {
+    vertical-align: middle;
+    font-size: 30px;
+
+}

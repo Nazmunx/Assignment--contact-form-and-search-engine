@@ -1,0 +1,155 @@
+/* css reset code start */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'arial';
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+.container {
+    width: 1332px;
+    margin: auto;
+}
+
+.banner .form .button-1 button i::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.banner .form .a::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.banner .form .b::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/* css reset code end */
+
+.header {
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+
+.header img {
+    width: 78px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.banner {
+    width: 1332px;
+    height: 464px;
+    background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7)), url(../media/img/bg.jpg);
+    margin: auto;
+    overflow: hidden;
+}
+
+.banner .form {
+    width: 373px;
+    height: 425px;
+    background-color: #fff;
+    margin: 20px auto 0px;
+    box-sizing: border-box;
+    padding: 35px;
+}
+
+.banner .form h1 {
+    font-weight: 400;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.banner .form .input-1 input {
+    display: block;
+    width: 302px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #999;
+    margin-bottom: 18px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.banner .form .input-2 input {
+    display: block;
+    width: 302px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #999;
+    margin-bottom: 18px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.banner .form .button-1 button {
+    display: block;
+    width: 302px;
+    padding: 5px 15px;
+    font-size: 14px;
+    border: 1px solid #999;
+    margin-top: 5px;
+    box-sizing: border-box;
+    text-align-last: left;
+    cursor: pointer;
+}
+
+.banner .form .button-1 button i {
+    float: right;
+}
+
+.banner .form > button {
+    display: block;
+    margin: 20px auto;
+    padding: 5px 35px;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+    background-color: green;
+    cursor: pointer;
+}
+
+.banner .form .a a:first-child {
+    display: inline-block;
+    font-size: 14px;
+    color: #06c;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+.banner .form .a a:last-child {
+    font-size: 14px;
+    color: #06c;
+    float: right;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+.banner .form .b a:first-child {
+    font-size: 14px;
+    color: #06c;
+    cursor: pointer;
+}
+
+.banner .form .b a:last-child{
+    font-size: 14px;
+    color: #06c;
+    float: right;
+    cursor: pointer;
+}

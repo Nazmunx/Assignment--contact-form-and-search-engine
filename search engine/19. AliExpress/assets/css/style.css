@@ -1,0 +1,212 @@
+/* css reset code start */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans';
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+.container {
+    width: 84%;
+    margin: auto;
+}
+
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/* css reset code end */
+
+.header .banner {
+    width: 100%;
+    height: 80px;
+    background-image: url(../media/img/banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    cursor: pointer;
+}
+
+.header .menu {
+    padding: 5px 0px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.header .menu ul {
+    text-align: right;
+}
+
+.header .menu ul li {
+    display: inline-block;
+}
+
+.header .menu ul li a {
+    display: inline-block;
+    font-size: 13px;
+    color: #333;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.header .menu ul li a i {
+    color: #ccc;
+}
+
+.header .menu ul li a:hover {
+    color: #ff4747;
+}
+
+.header .menu ul li a:hover span {
+    color: #333;
+}
+
+.header .menu ul li a:hover i {
+    color: #ccc;
+    transform: rotateX(180deg);
+    transition: .1s;
+}
+
+.header .menu ul li:nth-child(6) a i, .header .menu ul li:nth-child(7) a i:first-child, .header .menu ul li:nth-child(4) a  i {
+    color: #333;
+}
+
+.header .menu ul li:nth-child(6) a:hover i, .header .menu ul li:nth-child(7) a:hover i:first-child, .header .menu ul li:nth-child(4) a:hover i {
+    color: #ff4747;
+    transform: none;
+}
+
+.header .search {
+    padding: 20px 0px;
+}
+
+.header .search .search-item::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.header .search .logo {
+    width: 20%;
+    float: left;
+}
+
+.header .search .search-item {
+    width: 60%;
+    float: left;
+}
+
+.header .search .cart {
+    width: 20%;
+    float: left;
+}
+
+.header .search .logo p {
+    font-size: 11px;
+    color: #666;
+    transform: translate(0px, -4px);
+    cursor: pointer;
+}
+
+.header .search .logo img {
+    cursor: pointer;
+}
+
+.header .search .search-item input {
+    width: 70%;
+    float: left;
+    box-sizing: border-box;
+    padding: 8px 15px;
+    border-radius: 5px 0px 0px 5px;
+    border: 2px solid #ff4747;
+    color: #666;
+    background-color: #fff;
+    font-size: 13px;
+    border-right: none;
+}
+
+.header .search .search-item:nth-child(2) button {
+    width: 23%;
+    float: left;
+    box-sizing: border-box;
+    padding: 8px 15px;
+    border: 2px solid #ff4747;
+    color: #666;
+    background-color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    border-left: 2px solid #f0f0f0;
+    cursor: pointer;
+    border-right: none;
+}
+
+.header .search .search-item:nth-child(2) button i {
+    color: #d0d0d0;
+    margin-left: 20px;
+}
+
+.header .search .search-item button:last-child {
+    width: 7%;
+    float: left;
+    padding: 8px 15px;
+    border-radius: 0px 5px 5px 0px;
+    border: 2px solid #ff4747;
+    color: #fff;
+    background-color: #ff4747;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.header .search .search-item button:last-child i {
+    color: #fff;
+    margin-left: 0px;
+}
+
+.header .search .cart i {
+    color: #333;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 11px;
+    cursor: pointer;
+}
+
+.header .item-info {
+    display: block;
+}
+
+.header .item-info ul li {
+    display: inline-block;
+}
+
+.header .item-info ul li a {
+    display: inline-block;
+    font-size: 12px;
+    color: #666;
+    margin-right: 7px;
+    cursor: pointer;
+    transform: translate(230px, -44px);
+}
+
+.header .item-info ul li a:hover {
+    color: #ff4747;
+}
+
+.header .item-info ul li a span {
+    color: #d0d0d0;
+}
+
+.header .item-info ul li a:hover span {
+    color: #d0d0d0;
+}

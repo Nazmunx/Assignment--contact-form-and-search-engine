@@ -1,0 +1,256 @@
+/* css reset code start */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'arial';
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/* css reset code end */
+
+.header .top-menu {
+    padding: 10px 0px;
+    border-bottom: 1px solid #ebebeb;
+    background-color: #fcfcfc;
+}
+
+.header .top-menu .left-menu {
+    width: 50%;
+    float: left;
+}
+
+.header .top-menu .right-menu {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.header .top-menu .left-menu ul li {
+    display: inline-block;
+}
+
+.header .top-menu .left-menu ul li a {
+    display: inline-block;
+    font-size: 12px;
+    color: #565656;
+    cursor: pointer;
+}
+
+.header .top-menu .left-menu ul li:nth-child(1) a {
+    margin-right: 15px;
+}
+
+.header .top-menu .left-menu ul li a svg {
+    color: #C9151B;
+    vertical-align: middle;
+    margin-right: 5px;
+    cursor: default;
+}
+
+.header .top-menu .right-menu ul li {
+    display: inline-block;
+}
+
+.header .top-menu .right-menu ul li a {
+    display: inline-block;
+    font-size: 12px;
+    color: #565656;
+    cursor: pointer;
+}
+
+.header .top-menu .right-menu ul li:nth-child(1) a {
+    margin-right: 15px;
+}
+
+.header .top-menu .right-menu ul li a svg {
+    color: #C9151B;
+    vertical-align: middle;
+    margin-right: 5px;
+    cursor: default;
+}
+
+.header .search {
+    padding: 15px 0px 10px;
+}
+
+.header .search .logo {
+    width: 26%;
+    float: left;
+}
+
+.header .search .search-item {
+    width: 56%;
+    float: left;
+}
+
+.header .search .auth {
+    width: 18%;
+    float: left;
+    text-align: right;
+}
+
+.header .search .logo img {
+    cursor: pointer;
+}
+
+.header .search .search-item::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.header .search .search-item button:first-child {
+    width: 20%;
+    height: 42px;
+    float: left;
+}
+
+.header .search .search-item input {
+    width: 72%;
+    height: 42px;
+    float: left;
+}
+
+.header .search .search-item button:last-child {
+    width: 8%;
+    height: 42px;
+    float: left;
+}
+
+.header .search .search-item button:first-child {
+    box-sizing: border-box;
+    color: #565656;
+    display: inline-block;
+    border: 1px solid #ebebeb;
+    background-color: #fff;
+    font-size: 13px;
+    padding: 10px 5px;
+    border-radius: 5px 0px 0px 5px;
+    cursor: pointer;
+}
+
+.header .search .search-item button:first-child svg {
+    vertical-align: middle;
+    margin-left: 40px;
+}
+
+.header .search .search-item input {
+    box-sizing: border-box;
+    color: #565656;
+    display: inline-block;
+    border: 1px solid #ebebeb;
+    background-color: #fff;
+    font-size: 13px;
+    padding: 10px 5px;
+    border-left: none;
+    border-right: none;
+}
+
+.header .search .search-item button:last-child {
+    background-color: #C9151B;
+    box-sizing: border-box;
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #C9151B;
+    padding: 10px 5px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+.header .search .search-item button:last-child svg {
+    margin-top: 4px;
+}
+
+.header .search .auth ul li {
+    display: inline-block;
+}
+
+.header .search .auth ul li a {
+    display: inline-block;
+}
+
+.header .search .auth ul li a svg {
+    vertical-align: middle;
+    color: #565656;
+    cursor: pointer;
+}
+
+.header .search .auth ul li:last-child a svg {
+    margin-left: 5px;
+}
+
+.header .bottom-menu .left-menu {
+    width: 26%;
+    float: left;
+    padding: 12px 0px;
+}
+
+.header .bottom-menu .right-menu {
+    width: 74%;
+    float: left;
+}
+
+.header .bottom-menu .left-menu a {
+    color: #565656;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.header .bottom-menu .left-menu a svg {
+    vertical-align: middle;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.header .bottom-menu .right-menu ul li {
+    display: inline-block;
+    padding: 5px 72px 5px 5px;
+    border: 2px solid #d8d3d323;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.header .bottom-menu .right-menu ul li:last-child {
+    margin-right: 0px;
+}
+
+.header .bottom-menu .right-menu ul li a {
+    display: inline-block;
+    color: #565656;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.header .bottom-menu .right-menu ul li a:hover {
+    color: #C9151B;
+}
+
+.header .bottom-menu .right-menu ul li a img {
+    width: 25px;
+    vertical-align: middle;
+    margin-right: 15px;
+    padding: 5px;
+    background-color: #56565607;
+}

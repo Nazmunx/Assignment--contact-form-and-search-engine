@@ -1,0 +1,122 @@
+/* css reset code start */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'arial';
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+/* css reset code end */
+
+.sign-in-form {
+    text-align: center;
+}
+
+.sign-in-form img {
+    width:270px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.sign-in-form .form {
+    display: block;
+    margin: 20px auto;
+    width: 400px;
+    border: 1px solid #999;
+    padding: 30px 0px;
+    box-sizing: border-box;
+    text-align: left;
+    position: relative;
+}
+
+.sign-in-form .form h1 {
+    color: #d10;
+    font-size: 21px;
+    font-weight: 300;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.sign-in-form .form input {
+    width: 336px;
+    font-size: 15px;
+    color: #999;
+    padding: 10px 5px;
+    border: 1px solid #999;
+    background-color: #fff;
+    display: block;
+    margin: auto;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+.sign-in-form .form i {
+    position: absolute;
+    top: 95px;
+    right: 40px;
+    color: #999;
+}
+
+.sign-in-form .form button {
+    width: 180px;
+    font-size: 15px;
+    color: #999;
+    padding: 10px 5px;
+    border: 1px solid #b00f00;
+    background-color: #d10;
+    box-sizing: border-box;
+    color: #fff;
+    margin-left: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sign-in-form button:hover {
+    background-color: #fe0000;
+}
+
+.sign-in-form p {
+    font-size: 15px;
+    color: #999;
+}
+
+.sign-in-form p a {
+    color: #d10;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.footer p:first-child {
+    color: #999;
+}
+
+.footer p {
+    display: inline-block;
+    font-size: 12px;
+    color: rgba(153, 153, 153, 0.335);
+}
+
+.footer a {
+    display: inline-block;
+    font-size: 12px;
+    color: #999;
+    cursor: pointer;
+}

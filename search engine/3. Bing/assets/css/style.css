@@ -1,0 +1,262 @@
+/* Css reset code start  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/* Css reset code end  */
+
+body {
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1),rgba(0,0,0,.0)),url(/assets/media/img/bg.jpg);
+    background-position: 67% 33%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bing .header {
+    width: 60%;
+    float: left;
+}
+
+.bing .header::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.bing .side-menu {
+    width: 40%;
+    float: left;
+}
+
+.bing .header .logo {
+    width: 35%;
+    float: left;
+    margin-top: 5px;
+}
+
+.bing .header .logo a img {
+    width: 43px;
+    transform: translate(10px, 6px)
+}
+
+.bing .header .logo a {
+    font: 600 20px 'Open Sans', sans-serif;
+    color: #fff;
+    display: inline-block;
+    transform: translate(-20px, -1px)
+
+}
+
+.bing .header .menu {
+    width: 65%;
+    float: left;
+    margin-top: 5px;
+}
+
+.bing .header .menu ul {
+    text-align: left;
+}
+
+.bing .header .menu ul li {
+    display: inline-block;
+}
+
+.bing .header .menu ul li a {
+    color: #fff;
+    font: 300 13px 'Open Sans', sans-serif;
+    display: inline-block;
+    opacity: .9;
+    margin: 10px 14px;
+}
+
+.bing .header .menu ul li:nth-child(1) a {
+    margin-left: 0px;
+}
+
+.bing .header .menu ul li a:hover {
+    opacity: 1;
+}
+
+.bing .header .side-menu ul {
+    text-align: right;
+}
+
+.bing .side-menu ul li {
+    display: inline-block;
+}
+
+.bing .side-menu ul li a {
+    display: inline-block;
+    font: 300 13px 'Open Sans', sans-serif;
+    margin: 15px 2px;
+    color: #fff;
+    transform: translate(288px, 0px);
+}
+
+.bing .side-menu ul li:nth-child(2) a .featured-image {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: #ECECEC;
+    transform: translate(0px, -8px);
+}
+
+.bing .side-menu ul li:nth-child(2) a .featured-image i {
+    transform: translate(10px, 8px);
+    font-size: 14px;
+}
+
+.bing .side-menu ul li:nth-child(2) a {
+    color: rgba(34,34,34,.9);
+}
+
+.bing .side-menu ul li:nth-child(3) a i {
+    margin-left: 26px;
+    font-size: 22px;
+    vertical-align: middle;
+}
+
+.search::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.search .input input{
+    display: block;
+    width: 598px;
+    height: 50px;
+    padding: 10px 16px;
+    box-sizing: border-box;
+    font: 500 16px 'Open Sans', sans-serif;
+    margin-left: 225px;
+    border-radius: 25px;
+    border-style: none;
+    margin-top: 70px;
+    position: relative;
+}
+
+.search .icon {
+    position: absolute;
+    top: 142px;
+    right: 420px;
+}
+
+.search .icon svg, .search .icon img {
+    width: 23px;
+    fill: #00809D;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.container-fluid {
+    width: 100%;
+    background-color: #333;
+    position: fixed;
+    bottom: 0px;
+    box-shadow: 0px -35px 62px #000;
+}
+
+.container-fluid::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.info .footer {
+    width: 80%;
+    margin: auto;
+}
+
+.info .footer::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.info .footer .learn-info {
+    width: 89%;
+    float: left;
+}
+
+.info .footer .learn-info ul {
+    text-align-last: left;
+}
+
+.info .footer .learn-info ul li {
+    display: inline-block;
+}
+
+.info .footer .learn-info ul li a {
+    display: inline-block;
+    padding: 10px 20px 8px 0px;
+    font: 500 13px 'Open Sans', sans-serif;
+    color: #666;
+}
+
+.info .footer .copyright {
+    width: 11%;
+    float: left;
+}
+
+.info .footer .copyright a {
+    display: inline-block;
+    color: #666;
+    font: 500 13px 'Open Sans', sans-serif;
+    padding: 10px 0px 8px 15px;
+}
+
+.info .address {
+    position: absolute;
+    bottom: 43px;
+    right: 120px;
+}
+
+.info .address button a {
+    display: inline-block;
+    padding: 11px 16px;
+    color: #fff;
+    font: 300 13px 'Open Sans', sans-serif;
+}
+
+.info .address button a i {
+    font-size: 16px;
+}
+
+.info .address button:hover a i{
+    opacity: .7;
+}
+
+.info .address button {
+    background-color: #222;
+    border-style: none;
+    border-radius: 6px;
+}

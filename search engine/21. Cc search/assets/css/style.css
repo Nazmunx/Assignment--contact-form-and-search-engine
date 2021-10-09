@@ -1,0 +1,157 @@
+/* css reset code start */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/* css reset code end */
+
+.header {
+    padding: 40px 0px;
+}
+
+.header .logo {
+    width: 15%;
+    float: left;
+}
+
+.header .menu {
+    width: 85%;
+    float: left;
+    text-align: right;
+}
+
+.header .logo svg {
+    cursor: pointer;
+}
+
+.header .menu ul li {
+    display: inline-block;
+}
+
+.header .menu ul li a {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #666;
+    padding: 7px 15px;
+    cursor: pointer;
+}
+
+.header .menu ul li a:hover {
+    color: #000;
+}
+
+.section {
+    padding: 100px 0px 0px;
+    text-align: center;
+}
+
+.section h1 {
+    font-size: 37px;
+    color: #333;
+    font-weight: 700;
+}
+
+.section h4 {
+    font-size: 20px;
+    color: #333;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.section .search {
+    width: 58%;
+    margin: auto;
+    padding: 25px 0px;
+}
+
+.section .search::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.section .search input {
+    width: 80%;
+    float: left;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 2px solid #d0d0d0;
+    color: #666;
+    font-size: 22px;
+    border-right: none;
+    padding: 20px 20px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.section .search button {
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+    background-color: #e23600;
+    border: 2px solid #e23600;
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 20px 20px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+.section .search button:hover {
+    background-color: #ff6933;
+    border: 2px solid #ff6933;
+}
+
+.section p {
+    font-size: 14px;
+    color: #333;
+}
+
+.section p a {
+    color: #e23600;
+}
+
+.section p a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+.section h3 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.section label{
+    margin-right: 20px;
+    cursor: pointer;
+}
